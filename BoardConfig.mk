@@ -10,9 +10,9 @@ BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Conditionally Inherit GMS makefiles
-ifneq ("$(wildcard vendor/partner_gms/products/gms.mk)", "")
+# ifneq ("$(wildcard vendor/partner_gms/products/gms.mk)", "")
 WITH_GMS := true
-endif
+# endif
 
 # A/B
 AB_OTA_UPDATER := true
@@ -187,7 +187,7 @@ BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT := true
 # VINTF
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    vendor/aosp/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE += $(DEVICE_PATH)/compatibility_matrix.xml
 

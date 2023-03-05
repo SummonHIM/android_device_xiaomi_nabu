@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020-2022 The LineageOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Ambient settings -->
+    <string name="ambient_enable">啟用環境顯示</string>
+
+    <!-- Xiaomi Stylus -->
+    <string name="stylus_title">小米靈感觸控筆</string>
+    <string name="stylus_summary">小米靈感觸控筆的設定選項</string>
+    <string name="stylus_switch_title">啟用小米靈感觸控筆</string>
+    <string name="stylus_switch_summary">啟用此選項後，您便可以使用小米靈感觸控筆。</string>
+
+    <!-- Xiaomi Keyboard -->
+    <string name="keyboard_title">小米鍵盤保護殼</string>
+    <string name="keyboard_summary">小米鍵盤保護殼的設定選項</string>
+    <string name="keyboard_switch_title">啟用小米鍵盤保護殼的鍵盤</string>
+    <string name="keyboard_switch_summary">啟用此選項後，您便可以使用小米鍵盤保護殼的鍵盤。</string>
+
+     <!-- Double tap 2 wake -->
+     <string name="double_tap_2_wake_title">點按喚醒</string>
+     <string name="double_tap_2_wake_summary">點按喚醒的設定選項</string>
+     <string name="double_tap_2_wake_switch_title">啟用點按喚醒</string>
+     <string name="double_tap_2_wake_switch_summary">啟用此選項後，您便可以雙擊螢幕來喚醒裝置。</string>
+</resources>
