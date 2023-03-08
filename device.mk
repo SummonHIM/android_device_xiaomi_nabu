@@ -385,7 +385,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # 2-pane layout
 PRODUCT_PACKAGES += \
-    androidx.window.extensions
+    androidx.window.extensions \
+    androidx.window.sidecar
 
 # Trust
 PRODUCT_PACKAGES += \
