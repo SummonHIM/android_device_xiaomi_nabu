@@ -385,8 +385,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # 2-pane layout
 PRODUCT_PACKAGES += \
-    androidx.window.extensions \
-    androidx.window.sidecar
+    androidx.window.extensions
 
 # Trust
 PRODUCT_PACKAGES += \
@@ -434,6 +433,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/nabu/nabu-vendor.mk)
