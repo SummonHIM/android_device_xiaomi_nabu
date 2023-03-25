@@ -9,6 +9,7 @@ allow devicesettings_app {
   mediaextractor_service
   mediametrics_service
   mediaserver_service
+  default_android_service
 }:service_manager find;
 
 hal_client_domain(devicesettings_app, hal_motor)
@@ -31,3 +32,7 @@ allow devicesettings_app {
   sysfs_leds
   sysfs_thermal
 }:{ file lnk_file } rw_file_perms;
+
+# Pen and keyboard
+#allow devicesettings_app default_prop:file read;
+#allow devicesettings_app sysfs_msm_subsys:dir search;
